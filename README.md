@@ -1,7 +1,7 @@
 # TargetSeq-QC
 This is a perl script which can generate some statistics on the Targeted re-sequencing bam file.
 
-#### $0 -bed Amplicon.bedtools.bed -bam Sample_RMS222_A_H3FHYAFXX.trim.bam -out Sample_RMS222_A_H3FHYAFXX.QC.txt -int 10 -int 100 -int 500 -int 1000 -sum 1
+#### $0 -bed Amplicon.bed -bam Sample_222.bam -out Sample_222.QC.txt -int 10 -int 100 -int 500 -int 1000 -sum 1
 #Options
 ###-h, -help, --help Print this message.
 **-bed**    Bed file containing the locations where statistics to be generated. (Required)
