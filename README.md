@@ -18,3 +18,6 @@ Overlapping regions in bed file will be merged to avoid overcounting.
 **-int**    %of Based covered with min intX. Can be specified multiple times. (Required)
 
 **-out**    Output file name. (Required)
+
+#####Note
+This require bedtools to be in path. `module load bedtools`
