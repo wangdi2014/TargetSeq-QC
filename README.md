@@ -4,6 +4,7 @@ This is a perl script which can generate some statistics on the Targeted re-sequ
 #### $0 -bed Amplicon.bed -bam Sample_222.bam -out Sample_222.QC.txt -int 10 -int 100 -int 500 -int 1000 -sum 1
 #Options
 **-h,** -help, --help Print this message.
+
 **-bed**    Bed file containing the locations where statistics to be generated. (Required)
 
 **-bam**    Bam file on which the you whould like to generate the statistics, should be indexed. (Required)
