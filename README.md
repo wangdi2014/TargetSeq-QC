@@ -8,7 +8,7 @@ This is a perl script which can generate some statistics on the Targeted re-sequ
 **-bed**    Bed file containing the locations where statistics to be generated. (Required)
 
 **-bam**    Bam file on which the you whould like to generate the statistics, should be indexed. (Required)
-
+**-sam**    Sam file for unmapping statistics. (Required)
 **-all**    0 if you dont want the statistics to be generated for every region in bed file.
         -all 0 -sum 1 will generate aggregate stat only. (Default generate stat on all positions)
 
