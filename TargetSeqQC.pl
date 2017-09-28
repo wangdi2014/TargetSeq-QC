@@ -314,5 +314,9 @@ sub Median{
 
  For questions or comments, please contact: Rajesh Patidar <rajbtpatidar@gmail.com>
  The version of bedtools should be older than 2.19.1
+ 
+ Example:
+ 
+ perl TargetSeq-QC/TargetSeqQC.pl -bed ampl.hg19.bed2 -bam $i.bam -sam $i.sam -out $i.QC.txt  -int 10 -int 20 -int 50 -int 100 -int 200 -int 500 -int 1000 -int 5000 -sum 1
 
 =cut
